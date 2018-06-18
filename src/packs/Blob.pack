@@ -1,0 +1,4 @@
+size :: () -> Integer
+static toPdf :: String -> Blob
+toString :: () -> String
+static valueOf :: String -> Blob

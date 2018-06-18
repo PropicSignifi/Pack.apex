@@ -1,0 +1,7 @@
+static compile :: String -> Pattern
+matcher :: String -> Matcher
+static matches :: String -> String -> Boolean
+pattern :: () -> String
+static quote :: String -> String
+split :: String -> String[]
+split :: String -> Integer -> String[]

@@ -1,0 +1,5 @@
+getDistance :: Location -> String -> Double
+static getDistance :: Location -> Location -> String -> Double
+getLatitude :: () -> Double
+getLongitude :: () -> Double
+static newInstance :: Decimal -> Decimal -> Location

@@ -1,0 +1,33 @@
+constructor XmlStreamReader :: String
+getAttributeCount :: () -> Integer
+getAttributeLocalName :: Integer -> String
+getAttributeNamespace :: Integer -> String
+getAttributePrefix :: Integer -> String
+getAttributeType :: Integer -> String
+getAttributeValue :: String -> String -> String
+getAttributeValueAt :: Integer -> String
+getEventType :: () -> System.XmlTag
+getLocalName :: () -> String
+getLocation :: () -> String
+getNamespace :: () -> String
+getNamespaceCount :: () -> Integer
+getNamespacePrefix :: Integer -> String
+getNamespaceURI :: String -> String
+getNamespaceURIAt :: Integer -> String
+getPIData :: () -> String
+getPITarget :: () -> String
+getPrefix :: () -> String
+getText :: () -> String
+getVersion :: () -> String
+hasName :: () -> Boolean
+hasNext :: () -> Boolean
+hasText :: () -> Boolean
+isCharacters :: () -> Boolean
+isEndElement :: () -> Boolean
+isStartElement :: () -> Boolean
+isWhiteSpace :: () -> Boolean
+next :: () -> Integer
+nextTag :: () -> Integer
+setCoalescing :: Boolean -> void
+setNamespaceAware :: Boolean -> void
+toString :: () -> String

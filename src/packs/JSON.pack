@@ -1,0 +1,9 @@
+static createGenerator :: Boolean -> System.JSONGenerator
+static createParser :: String -> System.JSONParser
+static deserialize :: String -> System.Type -> Object
+static deserializeStrict :: String -> System.Type -> Object
+static deserializeUntyped :: String -> Object
+static serialize :: Object -> String
+static serialize :: Object -> Boolean -> String
+static serializePretty :: Object -> String
+static serializePretty :: Object -> Boolean -> String

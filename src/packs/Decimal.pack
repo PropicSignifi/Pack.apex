@@ -1,0 +1,19 @@
+abs :: () -> Decimal
+divide :: Decimal -> Integer -> Decimal
+divide :: Decimal -> Integer -> System.RoundingMode -> Decimal
+doubleValue :: () -> Double
+format :: () -> String
+intValue :: () -> Integer
+longValue :: () -> Long
+pow :: Integer -> Decimal
+precision :: () -> Integer
+round :: () -> Long
+round :: System.RoundingMode -> Long
+scale :: () -> Integer
+setScale :: Integer -> Decimal
+setScale :: Integer -> System.RoundingMode -> Decimal
+stripTrailingZeros :: () -> Decimal
+toPlainString :: () -> String
+static valueOf :: Double -> Decimal
+static valueOf :: Long -> Decimal
+static valueOf :: String -> Decimal

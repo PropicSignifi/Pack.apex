@@ -1,0 +1,45 @@
+addDays :: Integer -> Datetime
+addHours :: Integer -> Datetime
+addMinutes :: Integer -> Datetime
+addMonths :: Integer -> Datetime
+addSeconds :: Integer -> Datetime
+addYears :: Integer -> Datetime
+date :: () -> Date
+dateGMT :: () -> Date
+day :: () -> Integer
+dayGmt :: () -> Integer
+dayOfYear :: () -> Integer
+dayOfYearGmt :: () -> Integer
+format :: () -> String
+format :: String -> String
+format :: String -> String -> String
+formatGmt :: String -> String
+formatLong :: () -> String
+getTime :: () -> Long
+hour :: () -> Integer
+hourGmt :: () -> Integer
+isSameDay :: Datetime -> Boolean
+millisecond :: () -> Integer
+millisecondGmt :: () -> Integer
+minute :: () -> Integer
+minuteGmt :: () -> Integer
+month :: () -> Integer
+monthGmt :: () -> Integer
+static newInstance :: Long -> Datetime
+static newInstance :: Date -> Time -> Datetime
+static newInstance :: Integer -> Integer -> Integer -> Datetime
+static newInstance :: Integer -> Integer -> Integer -> Integer -> Integer -> Integer -> Datetime
+static newInstanceGmt :: Date -> Time -> Datetime
+static newInstanceGmt :: Integer -> Integer -> Integer -> Datetime
+static newInstanceGmt :: Integer -> Integer -> Integer -> Integer -> Integer -> Integer -> Datetime
+static now :: () -> Datetime
+static parse :: String -> Datetime
+second :: () -> Integer
+secondGmt :: () -> Integer
+time :: () -> Time
+timeGmt :: () -> Time
+static valueOf :: String -> Datetime
+static valueOf :: Object -> Datetime
+static valueOfGmt :: String -> Datetime
+year :: () -> Integer
+yearGmt :: () -> Integer

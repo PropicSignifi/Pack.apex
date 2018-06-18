@@ -1,0 +1,20 @@
+addDays :: Integer -> Date
+addMonths :: Integer -> Date
+addYears :: Integer -> Date
+day :: () -> Integer
+dayOfYear :: () -> Integer
+daysBetween :: Date -> Integer
+static daysInMonth :: Integer -> Integer -> Integer
+format :: () -> String
+static isLeapYear :: Integer -> Boolean
+isSameDay :: Date -> Boolean
+month :: () -> Integer
+monthsBetween :: Date -> Integer
+static newInstance :: Integer -> Integer -> Integer -> Date
+static parse :: String -> Date
+static today :: () -> Date
+toStartOfMonth :: () -> Date
+toStartOfWeek :: () -> Date
+static valueOf :: String -> Date
+static valueOf :: Object -> Date
+year :: () -> Integer

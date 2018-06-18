@@ -1,0 +1,4 @@
+static create :: String -> Map<String,Object> -> Map<String,Object>
+static del :: String -> List<String> -> Map<String,Object>
+static retrieve :: String -> List<String> -> Map<String,Object> -> Map<String,Object>
+static updat :: String -> List<String> -> Map<String,Object> -> Map<String,Object>

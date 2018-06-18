@@ -1,0 +1,1 @@
+static invoke :: Object -> Object -> Map<String,Object> -> List<String> -> void

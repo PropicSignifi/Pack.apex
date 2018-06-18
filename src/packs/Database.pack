@@ -1,0 +1,58 @@
+static convertLead :: Database.LeadConvert -> Boolean -> Database.LeadConvertResult
+static convertLead :: List<Database.LeadConvert> -> Boolean -> List<Database.LeadConvertResult>
+static countQuery :: String -> Integer
+static delete :: SObject -> Boolean -> Database.DeleteResult
+static delete :: List<SObject> -> Boolean -> List<Database.DeleteResult>
+static delete :: Id -> Boolean -> Database.DeleteResult
+static delete :: List<Id> -> Boolean -> List<Database.DeleteResult>
+static deleteAsync :: List<SObject> -> DataSource.AsyncDeleteCallback -> List<Database.DeleteResult>
+static deleteAsync :: SObject -> DataSource.AsyncDeleteCallback -> Database.DeleteResult
+static deleteAsync :: List<SObject> -> List<Database.DeleteResult>
+static deleteAsync :: SObject -> Database.DeleteResult
+static deleteImmediate :: List<SObject> -> List<Database.DeleteResult>
+static deleteImmediate :: SObject -> Database.DeleteResult
+static emptyRecycleBin :: List<Id> -> List<Database.EmptyRecycleBinResult>
+static emptyRecycleBin :: SObject -> Database.EmptyRecycleBinResult
+static emptyRecycleBin :: List<SObject> -> List<Database.EmptyRecycleBinResult>
+static executeBatch :: Database.Batchable<SObject> -> Id
+static executeBatch :: Database.Batchable<SObject> -> Integer -> Id
+static getAsyncDeleteResult :: Database.DeleteResult -> Database.DeleteResult
+static getAsyncLocator :: Database.SaveResult -> String
+static getAsyncLocator :: Database.DeleteResult -> String
+static getAsyncSaveResult :: Database.SaveResult -> Database.SaveResult
+static getQueryLocator :: String -> Database.QueryLocator
+static insert :: SObject -> Boolean -> Database.SaveResult
+static insert :: List<SObject> -> Boolean -> List<Database.SaveResult>
+static insert :: SObject -> Database.DMLOptions -> Database.SaveResult
+static insert :: List<SObject> -> Database.DMLOptions -> List<Database.SaveResult>
+static insertAsync :: List<SObject> -> DataSource.AsyncSaveCallback -> List<Database.SaveResult>
+static insertAsync :: SObject -> DataSource.AsyncSaveCallback -> Database.SaveResult
+static insertAsync :: List<SObject> -> List<Database.SaveResult>
+static insertAsync :: SObject -> Database.SaveResult
+static setSavepoint :: () -> System.Savepoint
+static insertImmediate :: List<SObject> -> List<Database.SaveResult>
+static insertImmediate :: SObject -> Database.SaveResult
+static merge :: sObject -> Id -> Database.MergeResult
+static merge :: sObject -> sObject -> Database.MergeResult
+static merge :: sObject -> List<Id> -> List<Database.MergeResult>
+static merge :: sObject -> List<SObject> -> List<Database.MergeResult>
+static merge :: sObject -> Id -> Boolean -> Database.MergeResult
+static merge :: sObject -> sObject -> Boolean -> Database.MergeResult
+static merge :: sObject -> List<Id> -> Boolean -> List<Database.MergeResult>
+static merge :: sObject -> List<SObject> -> Boolean -> List<Database.MergeResult>
+static query :: String -> sObject[]
+static rollback :: System.Savepoint -> void
+static undelete :: sObject -> Boolean -> Database.UndeleteResult
+static undelete :: sObject[] -> Boolean -> Database.UndeleteResult[]
+static undelete :: ID -> Boolean -> Database.UndeleteResult
+static undelete :: ID[] -> Boolean -> Database.UndeleteResult[]
+static update :: sObject -> Boolean -> Database.SaveResult
+static update :: sObject[] -> Boolean -> Database.SaveResult[]
+static update :: sObject -> Database.DmlOptions -> Database.SaveResult
+static update :: sObject[] -> Database.DMLOptions -> Database.SaveResult[]
+static updateAsync :: List<SObject> -> DataSource.AsyncSaveCallback -> List<Database.SaveResult>
+static updateAsync :: SObject -> DataSource.AsyncSaveCallback -> Database.SaveResult
+static updateAsync :: List<SObject> -> List<Database.SaveResult>
+static updateAsync :: SObject -> Database.SaveResult
+static updateImmediate :: List<SObject> -> List<Database.SaveResult>
+static updateImmediate :: SObject -> Database.SaveResult

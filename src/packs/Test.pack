@@ -1,0 +1,21 @@
+static clearApexPageMessages :: () -> void
+static createStub :: System.Type -> System.StubProvider -> Object
+static enqueueBatchJobs :: Integer -> List<Id>
+static getEventBus :: () -> EventBus.TestBroker
+static getFlexQueueOrder :: () -> List<Id>
+static getStandardPricebookId :: () -> Id
+static invokeContinuationMethod :: Object -> Continuation -> Object
+static isRunningTest :: () -> Boolean
+static loadData :: Schema.SObjectType -> String -> List<sObject>
+static newSendEmailQuickActionDefaults :: ID -> ID -> QuickAction.SendEmailQuickActionDefaults
+static setContinuationResponse :: String -> System.HttpResponse -> void
+static setCreatedDate :: Id -> Datetime -> void
+static setCurrentPage :: PageReference -> void
+static setCurrentPageReference :: PageReference -> void
+static setFixedSearchResults :: ID[] -> void
+static setMock :: Type -> Object -> void
+static setReadOnlyApplicationMode :: Boolean -> void
+static startTest :: () -> void
+static stopTest :: () -> void
+static testInstall :: InstallHandler -> Version -> Boolean -> void
+static testUninstall :: UninstallHandler -> void

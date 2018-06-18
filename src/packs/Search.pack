@@ -1,0 +1,3 @@
+static find :: String -> Search.SearchResults
+static query :: String -> sObject[sObject[]]
+static suggest :: String -> String -> Search.SuggestionOption -> Search.SuggestionResults

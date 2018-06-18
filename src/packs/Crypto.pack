@@ -1,0 +1,12 @@
+static decrypt :: String -> Blob -> Blob -> Blob -> Blob
+static decryptWithManagedIV :: String -> Blob -> Blob -> Blob
+static encrypt :: String -> Blob -> Blob -> Blob -> Blob
+static encryptWithManagedIV :: String -> Blob -> Blob -> Blob
+static generateDigest :: String -> Blob -> Blob
+static generateMac :: String -> Blob -> Blob -> Blob
+static getRandomInteger :: () -> Integer
+static getRandomLong :: () -> Long
+static sign :: String -> Blob -> Blob -> Blob
+static signWithCertificate :: String -> Blob -> String -> Blob
+static signXML :: String -> Dom.XmlNode -> String -> String -> void
+static signXML :: String -> Dom.XmlNode -> String -> String -> Dom.XmlNode -> void

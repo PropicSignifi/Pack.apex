@@ -1,0 +1,2 @@
+constructor RestResponse :: ()
+addHeader :: String -> String -> void

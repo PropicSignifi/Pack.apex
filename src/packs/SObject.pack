@@ -1,0 +1,26 @@
+addError :: String -> void
+addError :: String -> Boolean -> void
+addError :: Exception -> void
+addError :: Exception -> Boolean -> void
+addError :: String -> void
+addError :: String -> Boolean -> void
+clear :: () -> void
+clone :: Boolean -> Boolean -> Boolean -> Boolean -> sObject
+get :: String -> Object
+get :: Schema.sObjectField -> Object
+getCloneSourceId :: () -> Id
+getOptions :: () -> Database.DMLOptions
+getPopulatedFieldsAsMap :: () -> Map<String,Object>
+getSObject :: String -> sObject
+getSObject :: Schema.SObjectField -> sObject
+getSObjects :: String -> sObject[]
+getSObjects :: Schema.SObjectField -> sObject[]
+getSObjectType :: () -> Schema.SObjectType
+getQuickActionName :: () -> String
+isClone :: () -> Boolean
+put :: String -> Object -> Object
+put :: Schema.SObjectField -> Object -> Object
+putSObject :: String -> sObject -> sObject
+putSObject :: Schema.SObjectField -> sObject -> sObject
+recalculateFormulas :: () -> void
+setOptions :: database.DMLOptions -> void

@@ -1,0 +1,7 @@
+equals :: Object -> Boolean
+static forName :: String -> System.Type
+static forName :: String -> String -> System.Type
+getName :: () -> String
+hashCode :: () -> Integer
+newInstance :: () -> Object
+toString :: () -> String

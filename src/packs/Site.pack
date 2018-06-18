@@ -1,0 +1,38 @@
+static changePassword :: String -> String -> String -> System.PageReference
+static createExternalUser :: SObject -> String -> Id
+static createExternalUser :: SObject -> String -> String -> Id
+static createExternalUser :: SObject -> String -> String -> Boolean -> Id
+static createPersonAccountPortalUser :: sObject -> String -> String -> ID
+static createPersonAccountPortalUser :: sObject -> String -> String -> String -> ID
+static createPortalUser :: sObject -> String -> String -> Boolean -> ID
+static forgotPassword :: String -> Boolean
+static getAdminEmail :: () -> String
+static getAdminId :: () -> ID
+static getAnalyticsTrackingCode :: () -> String
+static getBaseCustomUrl :: () -> String
+static getBaseInsecureUrl :: () -> String
+static getBaseRequestUrl :: () -> String
+static getBaseSecureUrl :: () -> String
+static getBaseUrl :: () -> String
+static getDomain :: () -> String
+static getErrorDescription :: () -> String
+static getErrorMessage :: () -> String
+static getExperienceId :: () -> String
+static getMasterLabel :: () -> String
+static getName :: () -> String
+static getOriginalUrl :: () -> String
+static getPasswordPolicyStatement :: () -> String
+static getPathPrefix :: () -> String
+static getSiteId :: () -> String
+static getTemplate :: () -> System.PageReference
+static getSiteType :: () -> String
+static getSiteTypeLabel :: () -> String
+static isLoginEnabled :: () -> Boolean
+static isPasswordExpired :: () -> Boolean
+static isRegistrationEnabled :: () -> Boolean
+static isValidUsername :: String -> Boolean
+static login :: String -> String -> String -> System.PageReference
+static passwordlessLogin :: Id -> List<Auth.VerificationMethod> -> String -> System.PageReference
+static setExperienceId :: String -> void
+static setPortalUserAsAuthProvider :: sObject -> String -> void
+static validatePassword :: SObject -> String -> String -> void

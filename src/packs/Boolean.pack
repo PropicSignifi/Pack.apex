@@ -1,0 +1,2 @@
+static valueOf :: String -> Boolean
+static valueOf :: Object -> Boolean

@@ -1,0 +1,8 @@
+constructor Network :: ()
+static communitiesLanding :: () -> String
+static forwardToAuthPage :: String -> PageReference
+static getLoginUrl :: String -> String
+static getLogoutUrl :: String -> String
+static getNetworkId :: () -> String
+static getSelfRegUrl :: String -> String
+static loadAllPackageDefaultNetworkDashboardSettings :: () -> Integer

@@ -1,0 +1,5 @@
+constructor StaticResourceCalloutMock :: ()
+setHeader :: String -> String -> void
+setStaticResource :: String -> void
+setStatus :: String -> void
+setStatusCode :: Integer -> void

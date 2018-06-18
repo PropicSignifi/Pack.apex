@@ -1,0 +1,6 @@
+constructor Version :: Integer -> Integer
+constructor Version :: Integer -> Integer -> Integer
+compareTo :: System.Version -> Integer
+major :: () -> Integer
+minor :: () -> Integer
+patch :: () -> Integer

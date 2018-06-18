@@ -1,0 +1,5 @@
+static add :: String -> Datetime -> Long -> Datetime
+static addGmt :: String -> Datetime -> Long -> Datetime
+static diff :: String -> Datetime -> Datetime -> Long
+static isWithin :: String -> Datetime -> Boolean
+static nextStartDate :: String -> Datetime -> Datetime

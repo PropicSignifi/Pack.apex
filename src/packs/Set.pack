@@ -1,0 +1,21 @@
+constructor Set<Object> :: ()
+constructor Set<Object> :: Set<Object>
+constructor Set<Object> :: List<Object>
+
+add :: Object -> Boolean
+addAll :: List<Object> -> Boolean
+addAll :: Set<Object> -> Boolean
+clear :: () -> void
+clone :: () -> Set<Object>
+contains :: Object -> Boolean
+containsAll :: List<Object> -> Boolean
+containsAll :: Set<Object> -> Boolean
+equals :: Set<Object> -> Boolean
+hashCode :: () -> Integer
+isEmpty :: () -> Boolean
+remove :: Object -> Boolean
+removeAll :: List<Object> -> Boolean
+removeAll :: Set<Object> -> Boolean
+retainAll :: List<Object> -> Boolean
+retainAll :: Set<Object> -> Boolean
+size :: () -> Integer

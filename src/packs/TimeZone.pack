@@ -1,0 +1,5 @@
+getDisplayName :: () -> String
+getID :: () -> String
+getOffset :: Datetime -> Integer
+static getTimeZone :: String -> TimeZone
+toString :: () -> String

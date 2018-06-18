@@ -1,0 +1,127 @@
+abbreviate :: Integer -> String
+abbreviate :: Integer -> Integer -> String
+capitalize :: () -> String
+center :: Integer -> String
+center :: Integer -> String -> String
+charAt :: Integer -> Integer
+codePointAt :: Integer -> Integer
+codePointBefore :: Integer -> Integer
+codePointCount :: Integer -> Integer -> Integer
+compareTo :: String -> Integer
+contains :: String -> Boolean
+containsAny :: String -> Boolean
+containsIgnoreCase :: String -> Boolean
+containsNone :: String -> Boolean
+containsOnly :: String -> Boolean
+containsWhitespace :: () -> Boolean
+countMatches :: String -> Integer
+deleteWhitespace :: () -> String
+difference :: String -> String
+endsWith :: String -> Boolean
+endsWithIgnoreCase :: String -> Boolean
+equals :: String -> Boolean
+equals :: Object -> Boolean
+equalsIgnoreCase :: String -> Boolean
+escapeCsv :: () -> String
+escapeEcmaScript :: () -> String
+escapeHtml3 :: () -> String
+escapeHtml4 :: () -> String
+escapeJava :: () -> String
+static escapeSingleQuotes :: String -> String
+escapeUnicode :: () -> String
+escapeXml :: () -> String
+static format :: String -> List<String> -> String
+static fromCharArray :: List<Integer> -> String
+getChars :: () -> List<Integer>
+static getCommonPrefix :: List<String> -> String
+getLevenshteinDistance :: String -> Integer
+getLevenshteinDistance :: String -> Integer -> Integer
+hashCode :: () -> Integer
+indexOf :: String -> Integer
+indexOf :: String -> Integer -> Integer
+indexOfAny :: String -> Integer
+indexOfAnyBut :: String -> Integer
+indexOfChar :: Integer -> Integer
+indexOfChar :: Integer -> Integer -> Integer
+indexOfDifference :: String -> Integer
+indexOfIgnoreCase :: String -> Integer
+indexOfIgnoreCase :: String -> Integer -> Integer
+isAllLowerCase :: () -> Boolean
+isAllUpperCase :: () -> Boolean
+isAlpha :: () -> Boolean
+isAlphaSpace :: () -> Boolean
+isAlphanumeric :: () -> Boolean
+isAlphanumericSpace :: () -> Boolean
+isAsciiPrintable :: () -> Boolean
+static isBlank :: String -> Boolean
+static isEmpty :: String -> Boolean
+static isNotBlank :: String -> Boolean
+static isNotEmpty :: String -> Boolean
+isNumeric :: () -> Boolean
+isNumericSpace :: () -> Boolean
+isWhitespace :: () -> Boolean
+static join :: Object -> String -> String
+lastIndexOf :: String -> Integer
+lastIndexOf :: String -> Integer -> Integer
+lastIndexOfChar :: Integer -> Integer
+lastIndexOfChar :: Integer -> Integer -> Integer
+lastIndexOfIgnoreCase :: String -> Integer
+lastIndexOfIgnoreCase :: String -> Integer -> Integer
+left :: Integer -> String
+leftPad :: Integer -> String
+leftPad :: Integer -> String -> String
+length :: () -> Integer
+mid :: Integer -> Integer -> String
+normalizeSpace :: () -> String
+offsetByCodePoints :: Integer -> Integer -> Integer
+remove :: String -> String
+removeEnd :: String -> String
+removeEndIgnoreCase :: String -> String
+removeStart :: String -> String
+removeStartIgnoreCase :: String -> String
+repeat :: Integer -> String
+repeat :: String -> Integer -> String
+replace :: String -> String -> String
+replaceAll :: String -> String -> String
+replaceFirst :: String -> String -> String
+reverse :: () -> String
+right :: Integer -> String
+rightPad :: Integer -> String
+rightPad :: Integer -> String -> String
+split :: String -> List<String>
+split :: String -> Integer ->  List<String>
+splitByCharacterType :: () ->  List<String>
+splitByCharacterTypeCamelCase :: () ->  List<String>
+startsWith :: String -> Boolean
+startsWithIgnoreCase :: String -> Boolean
+stripHtmlTags :: () -> String
+substring :: Integer -> String
+substring :: Integer -> Integer -> String
+substringAfter :: String -> String
+substringAfterLast :: String -> String
+substringBefore :: String -> String
+substringBeforeLast :: String -> String
+substringBetween :: String -> String
+substringBetween :: String -> String -> String
+swapCase :: () -> String
+toLowerCase :: () -> String
+toLowerCase :: String -> String
+toUpperCase :: () -> String
+toUpperCase :: String -> String
+trim :: () -> String
+uncapitalize :: () -> String
+unescapeCsv :: () -> String
+unescapeEcmaScript :: () -> String
+unescapeHtml3 :: () -> String
+unescapeHtml4 :: () -> String
+unescapeJava :: () -> String
+unescapeUnicode :: () -> String
+unescapeXml :: () -> String
+static valueOf :: Date -> String
+static valueOf :: Datetime -> String
+static valueOf :: Decimal -> String
+static valueOf :: Double -> String
+static valueOf :: Integer -> String
+static valueOf :: Long -> String
+static valueOf :: Object -> String
+static valueOfGmt :: Datetime -> String

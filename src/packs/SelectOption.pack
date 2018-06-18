@@ -1,0 +1,10 @@
+constructor SelectOption :: String -> String
+constructor SelectOption :: String -> String -> Boolean
+getDisabled :: () -> Boolean
+getEscapeItem :: () -> Boolean
+getLabel :: () -> String
+getValue :: () -> String
+setDisabled :: Boolean -> void
+setEscapeItem :: Boolean -> void
+setLabel :: String -> void
+setValue :: String -> void

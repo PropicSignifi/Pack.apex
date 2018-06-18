@@ -1,0 +1,5 @@
+static getGlobalDescribe :: () -> Map<String,Schema.SObjectType>
+static describeDataCategoryGroups :: List<String> -> List<Schema.DescribeDataCategoryGroupResult>
+static describeSObjects :: List<String> -> List<Schema.DescribeSObjectResult>
+static describeTabs :: () -> List<Schema.DescribeTabSetResult>
+static describeDataCategoryGroupStructures :: List<Schema.DataCategoryGroupSobjectTypePair> -> Boolean -> List<Schema.DescribeDataCategoryGroupStructureResult>

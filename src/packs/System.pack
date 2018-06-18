@@ -1,0 +1,25 @@
+static abortJob :: String -> void
+static assert :: Boolean -> Object -> void
+static assertEquals :: Object -> Object -> Object -> void
+static assertNotEquals :: Object -> Object -> Object -> void
+static currentPageReference :: () -> System.PageReference
+static currentTimeMillis :: () -> Long
+static debug :: Object -> void
+static debug :: LoggingLevel -> Object -> void
+static enqueueJob :: Object -> ID
+static equals :: Object -> Object -> Boolean
+static getApplicationReadWriteMode :: () -> System.ApplicationReadWriteMode
+static hashCode :: Object -> Integer
+static isBatch :: () -> Boolean
+static isFuture :: () -> Boolean
+static isQueueable :: () -> Boolean
+static isScheduled :: () -> Boolean
+static now :: () -> Datetime
+static process :: List<Id> -> String -> String -> String -> List<Id>
+static purgeOldAsyncJobs :: Date -> Integer
+static requestVersion :: () -> System.Version
+static resetPassword :: ID -> Boolean -> System.ResetPasswordResult
+static resetPasswordWithEmailTemplate :: Id -> Boolean -> String -> System.ResetPasswordResult
+static setPassword :: ID -> String -> void
+static submit :: List<ID> -> String -> String -> List<ID>
+static today :: () -> Date

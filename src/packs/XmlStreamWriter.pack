@@ -1,0 +1,16 @@
+constructor XmlStreamWriter :: ()
+close :: () -> void
+getXmlString :: () -> String
+setDefaultNamespace :: String -> void
+writeAttribute :: String -> String -> String -> String -> void
+writeCData :: String -> void
+writeCharacters :: String -> void
+writeComment :: String -> void
+writeDefaultNamespace :: String -> void
+writeEmptyElement :: String -> String -> String -> void
+writeEndDocument :: () -> void
+writeEndElement :: () -> void
+writeNamespace :: String -> String -> void
+writeProcessingInstruction :: String -> String -> void
+writeStartDocument :: String -> String -> void
+writeStartElement :: String -> String -> String -> void

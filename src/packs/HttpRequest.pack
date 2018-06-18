@@ -1,0 +1,19 @@
+constructor HttpRequest :: ()
+getBody :: () -> String
+getBodyAsBlob :: () -> Blob
+getBodyDocument :: () -> Dom.Document
+getCompressed :: () -> Boolean
+getEndpoint :: () -> String
+getHeader :: String -> String
+getMethod :: () -> String
+setBody :: String -> void
+setBodyAsBlob :: Blob -> void
+setBodyDocument :: Dom.Document -> void
+setClientCertificate :: String -> String -> void
+setClientCertificateName :: String -> void
+setCompressed :: Boolean -> void
+setEndpoint :: String -> void
+setHeader :: String -> String -> void
+setMethod :: String -> void
+setTimeout :: Integer -> void
+toString :: () -> String

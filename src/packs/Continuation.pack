@@ -1,0 +1,4 @@
+constructor Continuation :: Integer
+addHttpRequest :: System.HttpRequest -> String
+getRequests :: () -> Map<String,System.HttpRequest>
+static getResponse :: String -> HttpResponse

@@ -1,0 +1,11 @@
+getCity :: () -> String
+getCountry :: () -> String
+getCountryCode :: () -> String
+getDistance :: Location -> String -> Double
+getGeocodeAccuracy :: () -> String
+getLatitude :: () -> Double
+getLongitude :: () -> Double
+getPostalCode :: () -> String
+getState :: () -> String
+getStateCode :: () -> String
+getStreet :: () -> String

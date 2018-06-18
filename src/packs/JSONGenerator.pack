@@ -1,0 +1,34 @@
+close :: () -> void
+getAsString :: () -> String
+isClosed :: () -> Boolean
+writeBlob :: Blob -> void
+writeBlobField :: String -> Blob -> void
+writeBoolean :: Boolean -> void
+writeBooleanField :: String -> Boolean -> void
+writeDate :: Date -> void
+writeDateField :: String -> Date -> void
+writeDateTime :: Datetime -> void
+writeDateTimeField :: String -> Datetime -> void
+writeEndArray :: () -> void
+writeEndObject :: () -> void
+writeFieldName :: String -> void
+writeId :: ID -> void
+writeIdField :: String -> Id -> void
+writeNull :: () -> void
+writeNullField :: String -> void
+writeNumber :: Decimal -> void
+writeNumber :: Double -> void
+writeNumber :: Integer -> void
+writeNumber :: Long -> void
+writeNumberField :: String -> Decimal -> void
+writeNumberField :: String -> Double -> void
+writeNumberField :: String -> Integer -> void
+writeNumberField :: String -> Long -> void
+writeObject :: Object -> void
+writeObjectField :: String -> Object -> void
+writeStartArray :: () -> void
+writeStartObject :: () -> void
+writeString :: String -> void
+writeStringField :: String -> String -> void
+writeTime :: Time -> void
+writeTimeField :: String -> Time -> void

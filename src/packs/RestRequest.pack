@@ -1,0 +1,3 @@
+constructor RestRequest :: ()
+addHeader :: String -> String -> void
+addParameter :: String -> String -> void

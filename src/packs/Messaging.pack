@@ -1,0 +1,10 @@
+static extractInboundEmail :: Messaging.InboundEmail.BinaryAttachment -> Boolean -> Messaging.InboundEmail
+static extractInboundEmail :: Blob -> Boolean -> Messaging.InboundEmail
+static reserveMassEmailCapacity :: Integer -> void
+static reserveSingleEmailCapacity :: Integer -> void
+static sendEmail :: Messaging.Email[] -> Boolean -> Messaging.SendEmailResult[]
+static sendEmailMessage :: List<ID> -> Boolean -> Messaging.SendEmailResult[]
+static renderEmailTemplate :: String -> String -> List<String> -> List<Messaging.RenderEmailTemplateBodyResult>
+static renderStoredEmailTemplate :: String -> String -> String -> Messaging.SingleEmailMessage
+static renderStoredEmailTemplate :: String -> String -> String -> Messaging.AttachmentRetrievalOption -> Messaging.SingleEmailMessage
+static renderStoredEmailTemplate :: String -> String -> String -> Messaging.AttachmentRetrievalOption -> Boolean -> Messaging.SingleEmailMessage

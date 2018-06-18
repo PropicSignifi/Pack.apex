@@ -1,0 +1,6 @@
+format :: () -> String
+intValue :: () -> Integer
+longValue :: () -> Long
+round :: () -> Long
+static valueOf :: String -> Double
+static valueOf :: Object -> Double

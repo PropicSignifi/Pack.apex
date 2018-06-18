@@ -1,0 +1,5 @@
+static findSimilar :: Idea -> ID[]
+static getAllRecentReplies :: String -> String -> ID[]
+static getReadRecentReplies :: String -> String -> ID[]
+static getUnreadRecentReplies :: String -> String -> ID[]
+static markRead :: String -> void

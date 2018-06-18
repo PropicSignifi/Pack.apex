@@ -1,0 +1,23 @@
+constructor List<Object> :: ()
+constructor List<Object> :: List<Object>
+constructor List<Object> :: Set<Object>
+
+add :: Object -> void
+add :: Integer -> Object -> void
+addAll :: List<Object> -> void
+addAll :: Set<Object> -> void
+clear :: () -> void
+clone :: () -> List<Object>
+contains :: Object -> Boolean
+deepClone :: Boolean -> Boolean -> Boolean -> List<Object>
+equals :: List<Object> -> Boolean
+get :: Integer -> Object
+getSObjectType :: () -> Schema.SObjectType
+hashCode :: () -> Integer
+indexOf :: Object -> Integer
+isEmpty :: () -> Boolean
+iterator :: () -> Iterator
+remove :: Integer -> Object
+set :: Integer -> Object -> void
+size :: () -> Integer
+sort :: () -> void

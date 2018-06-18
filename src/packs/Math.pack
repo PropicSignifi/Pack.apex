@@ -1,0 +1,58 @@
+static abs :: Decimal -> Decimal
+static abs :: Double -> Double
+static abs :: Integer -> Integer
+static abs :: Long -> Long
+static acos :: Decimal -> Decimal
+static acos :: Double -> Double
+static asin :: Decimal -> Decimal
+static asin :: Double -> Double
+static atan :: Decimal -> Decimal
+static atan :: Double -> Double
+static atan2 :: Decimal -> Decimal -> Decimal
+static atan2 :: Double -> Double -> Double
+static cbrt :: Decimal -> Decimal
+static cbrt :: Double -> Double
+static ceil :: Decimal -> Decimal
+static ceil :: Double -> Double
+static cos :: Decimal -> Decimal
+static cos :: Double -> Double
+static cosh :: Decimal -> Decimal
+static cosh :: Double -> Double
+static exp :: Decimal -> Decimal
+static exp :: Double -> Double
+static floor :: Decimal -> Decimal
+static floor :: Double -> Double
+static log :: Decimal -> Decimal
+static log :: Double -> Double
+static log10 :: Decimal -> Decimal
+static log10 :: Double -> Double
+static max :: Decimal -> Decimal -> Decimal
+static max :: Double -> Double -> Double
+static max :: Integer -> Integer -> Integer
+static max :: Long -> Long -> Long
+static min :: Decimal -> Decimal -> Decimal
+static min :: Double -> Double -> Double
+static min :: Integer -> Integer -> Integer
+static min :: Long -> Long -> Long
+static mod :: Integer -> Integer -> Integer
+static mod :: Long -> Long -> Long
+static pow :: Double -> Double -> Double
+static random :: () -> Double
+static rint :: Decimal -> Decimal
+static rint :: Double -> Double
+static round :: Double -> Integer
+static round :: Decimal -> Integer
+static roundToLong :: Decimal -> Long
+static roundToLong :: Double -> Long
+static signum :: Decimal -> Decimal
+static signum :: Double -> Double
+static sin :: Decimal -> Decimal
+static sin :: Double -> Double
+static sinh :: Decimal -> Decimal
+static sinh :: Double -> Double
+static sqrt :: Decimal -> Decimal
+static sqrt :: Double -> Double
+static tan :: Decimal -> Decimal
+static tan :: Double -> Double
+static tanh :: Decimal -> Decimal
+static tanh :: Double -> Double

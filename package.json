@@ -1,0 +1,24 @@
+{
+  "name": "pack.apex",
+  "version": "1.0.0",
+  "description": "Generate Func wrapper for Apex class",
+  "main": "generator.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Click-to-Cloud/Pack.apex.git"
+  },
+  "keywords": [
+    "apex",
+    "functional",
+    "generator"
+  ],
+  "author": "Wilson Miao Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Click-to-Cloud/Pack.apex/issues"
+  },
+  "homepage": "https://github.com/Click-to-Cloud/Pack.apex#readme",
+  "devDependencies": {
+    "lodash": "^4.17.10"
+  }
+}

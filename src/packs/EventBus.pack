@@ -1,0 +1,2 @@
+static publish :: SObject -> Database.SaveResult
+static publish :: List<SObject> -> List<Database.SaveResult>

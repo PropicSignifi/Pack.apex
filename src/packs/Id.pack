@@ -1,0 +1,2 @@
+getSObjectType :: () -> Schema.SObjectType
+static valueOf :: String -> ID

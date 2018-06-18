@@ -1,0 +1,27 @@
+end :: () -> Integer
+end :: Integer -> Integer
+find :: () -> Boolean
+find :: Integer -> Boolean
+group :: () -> String
+group :: Integer -> String
+groupCount :: () -> Integer
+hasAnchoringBounds :: () -> Boolean
+hasTransparentBounds :: () -> Boolean
+hitEnd :: () -> Boolean
+lookingAt :: () -> Boolean
+matches :: () -> Boolean
+pattern :: () -> Pattern
+static quoteReplacement :: String -> String
+region :: Integer -> Integer -> Matcher
+regionEnd :: () -> Integer
+regionStart :: () -> Integer
+replaceAll :: String -> String
+replaceFirst :: String -> String
+requireEnd :: () -> Boolean
+reset :: () -> Matcher
+reset :: String -> Matcher
+start :: () -> Integer
+start :: Integer -> Integer
+useAnchoringBounds :: Boolean -> Matcher
+usePattern :: Pattern -> Matcher
+useTransparentBounds :: Boolean -> Matcher

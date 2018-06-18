@@ -1,0 +1,24 @@
+static isLocked :: Id -> Boolean
+static isLocked :: List<Id> -> Map<Id,Boolean>
+static isLocked :: SObject -> Boolean
+static isLocked :: List<SObject> -> Map<Id,Boolean>
+static lock :: Id -> Approval.LockResult
+static lock :: List<Id> -> List<Approval.LockResult>
+static lock :: SObject -> Approval.LockResult
+static lock :: List<SObject> -> List<Approval.LockResult>
+static lock :: Id -> Boolean -> Approval.LockResult
+static lock :: List<Id> -> Boolean -> List<Approval.LockResult>
+static lock :: SObject -> Boolean -> Approval.LockResult
+static lock :: List<SObject> -> Boolean -> List<Approval.LockResult>
+static process :: Approval.ProcessRequest -> Approval.ProcessResult
+static process :: Approval.ProcessRequest -> Boolean -> Approval.ProcessResult
+static process :: Approval.ProcessRequest[] -> Approval.ProcessResult[]
+static process :: Approval.ProcessRequest[] -> Boolean -> Approval.ProcessResult[]
+static unlock :: Id -> Approval.UnlockResult
+static unlock :: List<Id> -> List<Approval.UnlockResult>
+static unlock :: SObject -> Approval.UnlockResult
+static unlock :: List<SObject> -> List<Approval.UnlockResult>
+static unlock :: Id -> Boolean -> Approval.UnlockResult
+static unlock :: List<Id> -> Boolean -> List<Approval.UnlockResult>
+static unlock :: SObject -> Boolean -> Approval.UnlockResult
+static unlock :: List<SObject> -> Boolean -> List<Approval.UnlockResult>

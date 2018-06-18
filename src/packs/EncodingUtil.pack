@@ -1,0 +1,6 @@
+static base64Decode :: String -> Blob
+static base64Encode :: Blob -> String
+static convertFromHex :: String -> Blob
+static convertToHex :: Blob -> String
+static urlDecode :: String -> String -> String
+static urlEncode :: String -> String -> String

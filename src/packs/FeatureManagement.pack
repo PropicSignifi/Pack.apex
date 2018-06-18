@@ -1,0 +1,8 @@
+static changeProtection :: String -> String -> String -> void
+static checkPackageBooleanValue :: String -> Boolean
+static checkPackageDateValue :: String -> Date
+static checkPackageIntegerValue :: String -> Integer
+static checkPermission :: String -> Boolean
+static setPackageBooleanValue :: String -> Boolean -> void
+static setPackageDateValue :: String -> Date -> void
+static setPackageIntegerValue :: String -> Integer -> void

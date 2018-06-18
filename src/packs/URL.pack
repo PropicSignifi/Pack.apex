@@ -1,0 +1,19 @@
+constructor Url :: String
+constructor Url :: Url -> String
+constructor Url :: String -> String -> String
+constructor Url :: String -> String -> Integer -> String
+getAuthority :: () -> String
+static getCurrentRequestUrl :: () -> System.URL
+getDefaultPort :: () -> Integer
+getFile :: () -> String
+static getFileFieldURL :: String -> String -> String
+getHost :: () -> String
+getPath :: () -> String
+getPort :: () -> Integer
+getProtocol :: () -> String
+getQuery :: () -> String
+getRef :: () -> String
+static getSalesforceBaseUrl :: () -> System.URL
+getUserInfo :: () -> String
+sameFile :: System.URL -> Boolean
+toExternalForm :: () -> String

@@ -1,0 +1,14 @@
+getBody :: () -> String
+getBodyAsBlob :: () -> Blob
+getBodyDocument :: () -> Dom.Document
+getHeader :: String -> String
+getHeaderKeys :: () -> String[]
+getStatus :: () -> String
+getStatusCode :: () -> Integer
+getXmlStreamReader :: () -> XmlStreamReader
+setBody :: String -> void
+setBodyAsBlob :: Blob -> void
+setHeader :: String -> String -> void
+setStatus :: String -> void
+setStatusCode :: Integer -> void
+toString :: () -> String

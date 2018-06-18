@@ -1,0 +1,19 @@
+constructor Map<String, Object> :: ()
+constructor Map<String, Object> :: Map<String, Object>
+
+clear :: () -> void
+clone :: () -> Map<String, Object>
+containsKey :: String -> Boolean
+deepClone :: () -> Map<String, Object>
+equals :: Map<String, Object> -> Boolean
+get :: String -> Object
+getSObjectType :: () -> Schema.SObjectType
+hashCode :: () -> Integer
+isEmpty :: () -> Boolean
+keySet :: () -> Set<String>
+put :: String -> Object -> Object
+putAll :: Map<String, Object> -> void
+putAll :: List<SObject> -> void
+remove :: String -> Object
+size :: () -> Integer
+values :: () -> List<Object>

@@ -1,0 +1,9 @@
+addHours :: Integer -> Time
+addMilliseconds :: Integer -> Time
+addMinutes :: Integer -> Time
+addSeconds :: Integer -> Time
+hour :: () -> Integer
+millisecond :: () -> Integer
+minute :: () -> Integer
+static newInstance :: Integer -> Integer -> Integer -> Integer -> Time
+second :: () -> Integer

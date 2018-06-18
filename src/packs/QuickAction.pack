@@ -1,0 +1,6 @@
+static describeAvailableQuickActions :: String -> List<QuickAction.DescribeAvailableQuickActionResult>
+static describeQuickActions :: List<String> -> List<QuickAction.DescribeQuickActionResult>
+static performQuickAction :: QuickAction.QuickActionRequest -> QuickAction.QuickActionResult
+static performQuickAction :: QuickAction.QuickActionRequest -> Boolean -> QuickAction.QuickActionResult
+static performQuickActions :: List<QuickAction.QuickActionRequest> -> List<QuickAction.QuickActionResult>
+static performQuickActions :: List<QuickAction.QuickActionRequest> -> Boolean -> List<QuickAction.QuickActionResult>

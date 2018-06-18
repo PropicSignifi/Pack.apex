@@ -1,0 +1,4 @@
+static moveAfterJob :: Id -> Id -> Boolean
+static moveBeforeJob :: Id -> Id -> Boolean
+static moveJobToEnd :: Id -> Boolean
+static moveJobToFront :: Id -> Boolean

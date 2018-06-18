@@ -1,0 +1,7 @@
+constructor Cookie :: String -> String -> String -> Integer -> Boolean
+getDomain :: () -> String
+getMaxAge :: () -> Integer
+getName :: () -> String
+getPath :: () -> String
+getValue :: () -> String
+isSecure :: () -> Boolean
